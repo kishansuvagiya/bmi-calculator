@@ -1,0 +1,56 @@
+.BMI_bg {
+    min-height: 100vh;
+    background: url("https://digitshack.com/codepen/bmical/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Nunito", sans-serif;
+}
+.BMI_container{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, 0%);
+}
+.BMI_box{
+    min-width: 400px;
+    background: #fafafa;
+    border-radius: 38px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 150px;
+}
+.BMI_box::before {
+    content: "";
+    position: absolute;
+    height: 110%;
+    width: 110%;
+    left: -5%;
+    top: -5%;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 166px -31px rgba(0, 0, 0, 0.15);
+    border-radius: 60px;
+    z-index: -1;
+  }
+  .result {
+    padding: 30px 20px;
+  }
+  .result p {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 15px;
+  }
+  .BMI_result{
+    font-size: 36px;
+    font-weight: 900;
+    color: #4f7df9;
+    background-color: #eaeaea;
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 55px;
+    margin-bottom: 25px;
+  }
+  .result span {
+    color: #4f7df9;
+    font-weight: 800;
+  }
